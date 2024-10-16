@@ -1,0 +1,105 @@
+body{
+     margin: 0;
+}
+.colores{
+     color: #00CFE2;
+     color: #00B0C0;
+     color: #00D8EA;
+     color: #00919E;
+     color: #00727C;
+     color: #00535A;
+     color: #00434B;
+}
+.contenedor-row,
+.contenedor-column{
+     padding: 20px;
+}
+.contenedor-flexible1,
+.contenedor-flexible2,
+.contenedor-flexible3,
+.contenedor-flexible4{
+     display: flex;
+     flex-direction: row;
+     color: white;
+     text-align: center;
+     padding: 20px;
+}
+.contenedor-flexible5,
+.contenedor-flexible6,
+.contenedor-flexible7,
+.contenedor-flexible8{
+     display: flex;
+     flex-direction: column;
+     color: white;
+     text-align: center;
+     padding: 20px;
+}
+.contenedor-flexible1{
+     background-color: #00434B;
+     align-items: flex-start;
+     justify-content: center;
+}
+.contenedor-flexible2{
+     background-color: #00535A;
+     align-items: flex-end;
+     justify-content: space-around;
+}
+.contenedor-flexible3{
+     background-color: #00727C;
+     align-items: center;
+     justify-content: space-between;
+}
+.contenedor-flexible4{
+     background-color: #00434B;
+     align-items: center;
+     justify-content: center;
+}
+.contenedor-flexible5{
+     background-color: #00434B;
+     align-items: center;
+     justify-content: center;
+}
+.contenedor-flexible6{
+     background-color: #00535A;
+     align-items: flex-start;
+     justify-content: center;
+}
+.contenedor-flexible7{
+     background-color: #00727C;
+     align-items: flex-end;
+     justify-content: space-around;
+}
+.contenedor-flexible8{
+     background-color: #00434B;
+     align-items: center;
+     justify-content: space-between;
+}
+.uno,
+.dos,
+.tres,
+.cuatro{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #00434B;
+}
+.uno{
+     width: 150px;
+     height: 100px;
+     background-color: #00CFE2;
+}
+.dos{
+     width: 150px;
+     height: 250px;
+     background-color: #00B0C0;
+}
+.tres{
+     width: 150px;
+     height: 200px;
+     background-color: #00D8EA;
+}
+.cuatro{
+     width: 150px;
+     height: 150px;
+     background-color: #00919E;
+}
