@@ -23,6 +23,7 @@ body{
      color: white;
      text-align: center;
      padding: 20px;
+     flex-wrap: wrap;
 }
 .contenedor-flexible5,
 .contenedor-flexible6,
@@ -32,7 +33,9 @@ body{
      flex-direction: column;
      color: white;
      text-align: center;
-     padding: 20px;
+     padding: 20px; 
+     flex-wrap: wrap;
+     gap: 20px;
 }
 .contenedor-flexible1{
      background-color: #00434B;
